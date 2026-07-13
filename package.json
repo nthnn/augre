@@ -1,0 +1,29 @@
+{
+  "name": "augre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "npx -y tsx test.ts",
+    "lint": "eslint src/**/*.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.1.1",
+    "@types/pg": "^8.20.0",
+    "@typescript-eslint/eslint-plugin": "^8.63.0",
+    "@typescript-eslint/parser": "^8.63.0",
+    "eslint": "^10.7.0",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.63.0"
+  },
+  "dependencies": {
+    "pg": "^8.22.0"
+  }
+}
