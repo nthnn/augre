@@ -1,17 +1,33 @@
 {
   "name": "augre",
   "version": "1.0.0",
-  "description": "",
+  "description": "A powerful, drop-in replacement for Supabase's postgrest-js database SDK.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nthnn/augre.git"
+  },
   "scripts": {
     "test": "npx -y tsx test.ts",
     "lint": "eslint src/**/*.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run lint && npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "supabase",
+    "postgres",
+    "postgrest",
+    "database",
+    "sdk",
+    "typescript",
+    "orm"
+  ],
+  "author": "Nathanne Isip <nathanne@nthnn.dev>",
+  "license": "MIT",
   "type": "module",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
