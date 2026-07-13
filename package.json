@@ -1,5 +1,5 @@
 {
-  "name": "augre",
+  "name": "@nathannestein/augre",
   "version": "1.0.0",
   "description": "A powerful, drop-in replacement for Supabase's postgrest-js database SDK.",
   "main": "dist/index.js",
